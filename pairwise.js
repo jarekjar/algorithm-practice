@@ -1,4 +1,4 @@
-Given an array arr, find element pairs whose sum equal the second argument arg and
+/*Given an array arr, find element pairs whose sum equal the second argument arg and
 return
 the sum of their indices.
 
@@ -19,7 +19,7 @@ Below we 'll take their corresponding indices and add them.
 
 Remember to use Read - Search - Ask
 if you get stuck.Try to pair program.Write your own
-code.
+code.*/
 
 
 function pairwise(arr, arg) {
