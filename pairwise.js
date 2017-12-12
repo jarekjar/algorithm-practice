@@ -28,7 +28,6 @@ function pairwise(arr, arg) {
     }
     var pairs = [];
     var pairVals = [];
-    var match = false;
     for (var i = 0; i < arr.length; i++) {
         for (var j = 1; j < arr.length; j++) {
             if (arr[i] + arr[j] === arg && i !== j) {
@@ -45,7 +44,6 @@ function pairwise(arr, arg) {
     pairs = pairs.reduce(function (a, b) {
         return a + b;
     });
-    console.log(pairs);
     return pairs;
 }
 
