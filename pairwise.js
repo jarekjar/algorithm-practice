@@ -27,11 +27,9 @@ function pairwise(arr, arg) {
         return 0;
     }
     var pairs = [];
-    var pairVals = [];
     for (var i = 0; i < arr.length; i++) {
         for (var j = 1; j < arr.length; j++) {
             if (arr[i] + arr[j] === arg && i !== j) {
-                pairVals.push([arr[i], arr[j]]);
                 pairs.push(i, j);
                 arr[i] = "used";
                 arr[j] = "used";
